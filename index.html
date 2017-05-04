@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Getting to Know you</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+      <header>
+        <h1>Getting to know you</h1>
+        <h2>getting to know all about you...</h2>
+      </header>
+    </div>
+    
+    <section>
+    <form name="inputForm" id="inputForm" method="get">
+      <table class="table">
+      <thead class="thead"><!--table header-->
+      <tr>
+        <th>What is your...</th>  
+        <th>Answer</th>
+        <th>Things about you...</th>
+      </tr>
+      </thead>
+      <tbody><!--defines where table body starts-->
+
+      <tr>
+        <td>What's your Name?</td>  
+        <td>
+          <input class="form-control" type="text" name="nameInput" id="nameInput" value="Puddin Tame">
+        </td>
+        <td><div id="nameOutput"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Your Favorite Food</td>
+        <td>
+          <input class="form-control" type="text" name="textInput" id="textInput" value="Steak n' Taters">
+        </td>
+        <td><div id="textOutput"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Your Favorite Color</td>
+        <td>
+          <input class="form-control" type="color" name="colorInput" id="colorInput" value="#022688">
+        </td>
+        <td><div id="colorOutput"></div>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Your Favorite Animal?</td>
+        <td>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="Dog" checked>Dog
+          
+          <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="Cat">Cat
+          
+          <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="Dinosaur">Dinosaur
+         
+          <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="Other">Other</div>
+        </td>
+        <td><div id="checkOutput"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Are you Human?</td>
+        <td>
+          <input class="form-check-input" type="radio" name="radioInput" id="radioInput" value="true"> 
+          Yes
+          <input class="form-check-input" type="radio" name="radioInput" id="radioInput"> 
+          Does not compute...
+        </td>
+        <td><div id="checkOutput"></div>
+        </td>
+      </tr>  
+      
+      <tr>
+        <td>When is you birthday?</td>
+        <td>
+          <input class="form-control" type="date" name="dateInput" id="dateInput">
+        </td>
+        <td><div id="dateOutput"></div>
+        </td>
+      </tr>       
+      <tr>
+        <td>how tall are you? (inches please!)</td>
+        <td>
+          <input class="form-control" type="number" name="numberInput" id="numberInput" step="any" value="63">        
+        </td>
+        <td><div id="numberOutput"></div>
+        </td>
+      </tr>
+        
+      <tr>
+        <td>Scale of 1 to 10, how are you feeling today?</td>
+        <td>
+          <input class="form-control" type="range" name="rangeInput" id="rangeInput" min="1" max="10" value="5">        
+        </td>
+        <td><div id="rangeOutput"></div>
+        </td>
+      </tr>
+      <tr> 
+        <td>Want to make an account?</td>
+        <td>
+          <input class="form-control" type="email" name="emailInput" id="emailInput" value="PuddinTame@Cucumber.com">        
+        </td>
+        <td><div id="emailOutput"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>
+          <input class="form-control" type="password" name="passwordInput" id="passwordInput" value="Secret1234">        
+        </td>
+        <td><div id="passwordOutput"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Can we call you?</td>
+        <td>
+          <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="true"> 
+          Yes
+          <input class="form-control" type="tel" name="telInput" id="telInput" value="206-867-5309"><br>      
+          <input class="form-check-input" type="checkbox" name="checkInput" id="checkInput" value="true"> 
+          No, because I am actually a robot <br>who just wants to learn how to love...
+        </td>
+        <td><div id="telOutput"></div>
+        </td>
+      </tr>        
+      </tbody>      
+      </table>
+    </form>
+  </section>
+</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</html>

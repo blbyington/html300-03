@@ -1,0 +1,27 @@
+body {
+  background-color: lightgoldenrodyellow;
+  
+}
+h1 {
+  font-family: 'Shrikhand', cursive;
+  color: purple;
+  
+}
+h2 {
+  font-family: 'Shrikhand', cursive;
+  color: goldenrod;
+  text-align: center;
+}
+
+.checkboxInput {
+  flex-wrap: wrap;
+  
+}
+
+tr {
+  max-width: 25%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
